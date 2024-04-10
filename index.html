@@ -9,17 +9,73 @@
             background-color: #f0f0f0; /* Light grey background */
             color: #333; /* Dark grey text */
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
         h1 {
             color: #007bff; /* Bootstrap primary blue */
         }
+        h2 {
+            color: #28a745; /* Some green for headings */
+        }
         p {
             color: #6c757d; /* Bootstrap secondary text */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+        ul {
+            list-style-type: none;
+        }
+        li {
+            padding: 5px;
         }
     </style>
 </head>
 <body>
-    <h1>Hi!</h1>
-    <p>Welcome to my simple page.</p>
+    <h1>Hello there!</h1>
+    <p>Welcome to my enhanced simple page.</p>
+    
+    <h2>Interesting Facts</h2>
+    <ul>
+        <li>The sky is blue due to the scattering of sunlight by the atmosphere.</li>
+        <li>Bees can see ultraviolet light which is invisible to humans.</li>
+        <li>A group of flamingos is called a flamboyance.</li>
+    </ul>
+    
+    <h2>Sample Table</h2>
+    <table>
+        <tr>
+            <th>Item</th>
+            <th>Description</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>Apples</td>
+            <td>Fruit</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Bread</td>
+            <td>Bakery Product</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Water</td>
+            <td>Beverage</td>
+            <td>10</td>
+        </tr>
+    </table>
 </body>
 </html>
